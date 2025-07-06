@@ -1,0 +1,56 @@
+// @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+// @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  font-size: 24px;
+  font-family: "Arizonia", cursive;
+}
+.container {
+  background-color: #000;
+  border: 2px solid #0f0;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(0, 255, 0, 0.6);
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  padding: 2rem;
+  font-weight: bold;
+  color: #0f0;
+
+  //   #day {
+  //   }
+  //   #clock {
+  //   }
+  #date {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    button {
+      padding: 8px 24px;
+      border-radius: 20px;
+      // font-size: 1.5rem;
+      border: none;
+
+      font-family: "Italiana", sans-serif;
+      font-weight: bold;
+    }
+  }
+}
